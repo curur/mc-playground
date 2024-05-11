@@ -1,0 +1,10 @@
+name: mc-playground
+author: curur
+main: com.github.curur.mcplayground.plugin.Main
+version: ${version}
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.22
+commands:
+  mcplayground:
+    aliases:
+      - mcp
